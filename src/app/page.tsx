@@ -7,9 +7,13 @@ export default function HomePage() {
         <Hero />
       <section id="contact">
         <Contact />
+      <section id="pricing">
+        <Pricing />
+      </section>
       </section>
       </section>
     </>
   )
 }
 import Contact from '@/components/sections/home/Contact'
+import Pricing from '@/components/sections/home/Pricing'
