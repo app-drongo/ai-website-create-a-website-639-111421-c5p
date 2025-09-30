@@ -5,7 +5,11 @@ export default function HomePage() {
     <>
       <section id="hero">
         <Hero />
+      <section id="contact">
+        <Contact />
+      </section>
       </section>
     </>
   )
 }
+import Contact from '@/components/sections/home/Contact'

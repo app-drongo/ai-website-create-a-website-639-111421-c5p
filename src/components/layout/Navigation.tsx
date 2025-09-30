@@ -25,7 +25,11 @@ export default function Navigation() {
   const navigation = [
   {
     name: "Home",
-    href: "#hero"
+    href: "/"
+  },
+  {
+    name: "Contact",
+    href: "#contact"
   }
 ];
 
